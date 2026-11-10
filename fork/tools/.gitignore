@@ -1,0 +1,6 @@
+# The signing keyring home created by init-signing-key.sh.
+#
+# A signing key that lives in git is a signing key that has been handed to
+# everyone who cloned the repository. This directory holds a development key
+# and must never be committed.
+gnupg/
