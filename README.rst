@@ -1,3 +1,20 @@
+.. raw:: html
+
+    <div style="border-left:4px solid #1793d1;padding:0.6em 1em;margin:0 0 1.5em 0;background:#f5f7f9;">
+    <p style="margin:0 0 .4em 0;"><strong>This repository is three things.</strong></p>
+    <ol style="margin:0;padding-left:1.4em;">
+    <li>The <strong>upstream archiso mirror</strong>, unmodified. Everything below the horizontal rule is upstream's, byte for byte. It is the substrate the academy teaches from.</li>
+    <li>The <strong>plan</strong> for the ArchISO Bootcamp Academy, tracked in <a href="https://github.com/spivanatalie64/archiso-teaching-environment/issues/2">issue #2</a>.</li>
+    <li>The <strong>reference implementation</strong> the academy's lab checks compare against, under <code>fork/</code>.</li>
+    </ol>
+    <p style="margin:.6em 0 0 0;">The academy itself lives at
+    <a href="https://github.com/spivanatalie64/archiso-bootcamp-academy">github.com/spivanatalie64/archiso-bootcamp-academy</a>.
+    New material belongs in a new top-level directory, never in the upstream tree —
+    <code>tools/check-upstream-pristine.sh</code> enforces that.</p>
+    </div>
+
+    <hr/>
+
 =======
 archiso
 =======
